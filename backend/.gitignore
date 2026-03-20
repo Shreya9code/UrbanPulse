@@ -1,0 +1,11 @@
+venv
+__pycache__
+*.pyc
+*.py[cod]
+*$py.class
+# IDEs
+.vscode/
+.idea/
+# Distribution / packaging
+build/
+dist/
