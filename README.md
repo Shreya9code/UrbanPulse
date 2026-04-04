@@ -79,13 +79,27 @@ urbanpulse/
 
 ### Backend (`backend/.env`)
 ```env
-VIDEO_PATH=traffic_video.mp4
-CONF_THRESHOLD=0.5
-PORT=8000
+fastapi
+uvicorn
+python-socketio
+python-multipart
+opencv-python
+ultralytics
+deep-sort-realtime
+pandas
+numpy
+torch
+torchvision
+torch-geometric
+opencv-python-headless
+scikit-learn
+Pillow
 ```
 
 ### Frontend (`frontend/.env.local`)
 ```env
+VITE_API_BASE=https://marcel-unstreaming-janine.ngrok-free.dev
+REACT_APP_NGROK_URL=https://marcel-unstreaming-janine.ngrok-free.dev
 VITE_BACKEND_URL=http://localhost:8000
 ```
 
